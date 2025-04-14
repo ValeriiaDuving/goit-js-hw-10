@@ -12,7 +12,153 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+
+
+.back-link {
+  margin-bottom: 15px;
+}
+
+#datetime-picker {
+  margin-top: 15px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 24px;
+    margin-bottom: 25px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+}
+
+.timer-btn {
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+.timer-btn[data-start]:disabled {
+  background-color: #ccc;
+  color: #666666;
+}
+
+.timer-btn[data-start]:not(:disabled) {
+  background-color: #4e75ff;
+  color: #fff;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-weight: 500;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.label {
+  font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.container {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+  width: 400px;
+  width: 100%;
+  max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.label-snackbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.label-snackbar-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.state-label {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+}
+
+.btn-snackbar {
+  margin-top: 15px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    background-color: #4e75ff;
+      color: #fff;
+      display: block;
+      margin: auto;
+      margin-top: 15px;
+}
+
+.input-snackbar {
+  height: 30px;
+  padding-left: 10px;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
